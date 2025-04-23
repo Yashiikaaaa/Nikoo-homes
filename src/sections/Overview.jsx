@@ -17,20 +17,20 @@ export const Overview = ({ contactmodal, setContactModal }) => {
           </h1>
           <div className="max-w-2xl md:text-base text-sm text-black font-body font-light">
             <p className="font-bold text-lg md:text-xl">
-            Nikoo Homes V Phase II - Luxury Apartments in Thanisandra
+            Nikoo Homes V Phase II - Luxury Apartments in Sadahalli
 
             </p>
             <p className="mt-2">
-            Located within the expansive Bhartiya City township, Thanisandra, Bangalore.
+            Located near Kemepegowda International Airport.
             </p>
 
             <ul className="mt-4 text-left list-disc list-inside space-y-1">
-              <li><strong>  Spacious 2, 2.5, 3, 3.5 & 4 BHK Apartments </strong> (742 - 2,188 sq. ft.)</li>
-              <li><strong>55,000 sq. ft.</strong> clubhouse with premium amenities</li>
-              <li><strong> 38-story towers with panoramic views</strong></li>
-              <li><strong>Garden living concept with lush green spaces</strong></li>
-              <li><strong>Prime Connectivity:</strong> Near Outer Ring Road, Manyata Tech Park & Kempegowda Airport</li>
-              <li> Possession from June 2028 onwards  </li>
+              <li><strong>  Spacious Studio, 1, 2, 2.5, 3, 3.5 & 4 BHK Apartments </strong> (480 - 2,600 sq. ft.)</li>
+              <li><strong> 60,000 sq. ft.</strong> clubhouse with premium amenities</li>
+              <li><strong> 2B+G+22 structure with panoramic views</strong></li>
+              <li><strong> Garden living concept with lush green spaces</strong></li>
+              <li><strong> Prime Connectivity:</strong> Near Outer Ring Road, Manyata Tech Park & Kempegowda Airport</li>
+              <li> Possession from June 2029 onwards  </li>
             </ul>
           </div>
 

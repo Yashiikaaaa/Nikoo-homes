@@ -19,7 +19,7 @@ const connectivityData = [
     items: [
       "Outer Ring Road (ORR) – 5 km",
       "Hebbal Metro Station – 12 km",
-      "Kempegowda International Airport – 30 km",
+      "Kempegowda International Airport – 2 km",
       "Yelahanka Railway Station – 15 km"
     ]
   },
@@ -90,12 +90,12 @@ export const Location = () => {
               <h1 className="text-3xl md:text-5xl font-subheading font-normal text-black uppercase">Location</h1>
               <div className="flex items-center justify-center md:justify-start">
                 <img src={mapPointer} alt="Map Pointer" className="w-3 h-3 md:w-5 md:h-5 mr-2" />
-                <p className="text-xs md:text-xl font-body font-medium">Thanisandra, near Bhartiya City</p>
+                <p className="text-xs md:text-xl font-body font-medium">Sadahalli, near Bengaluru Airport</p>
               </div>
             </div>
 
             <ol className='text-left font-body text-xs md:text-base list-disc font-medium pl-1 md:pl-5 hidden sm:block space-y-3'>
-              <li>Kempegowda International Airport – 30 mins</li>
+              <li>Kempegowda International Airport – 5 mins</li>
               <li>Manyata Tech Park – 10 mins</li>
               <li>Outer Ring Road (ORR) – 5 mins</li>
               <li>Hebbal – 15 mins</li>
