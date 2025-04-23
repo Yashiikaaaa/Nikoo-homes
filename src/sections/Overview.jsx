@@ -46,7 +46,7 @@ export const Overview = ({ contactmodal, setContactModal }) => {
         <div className="hidden md:flex flex-col items-center">
           <img
             src={image}
-            alt="Assetz Micropolis"
+            alt="Nikoo Homes"
             className="w-[420px] h-auto rounded-lg shadow-lg object-cover"
           />
         </div>

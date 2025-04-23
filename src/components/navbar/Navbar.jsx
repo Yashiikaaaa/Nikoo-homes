@@ -74,7 +74,7 @@ export const Navbar = ({ sitevisitmodal, setSiteVisitModal, setContactModal }) =
             <img
               src={logo}
               className="h-[80px] md:[80px]"
-              alt="Assetz The Hideaway"
+              alt="Nikoo Homes"
             />
           </a>
 
