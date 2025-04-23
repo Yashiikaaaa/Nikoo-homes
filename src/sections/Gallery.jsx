@@ -12,6 +12,10 @@ import pic9 from '../assets/gallery/12.webp'
 import pic10 from '../assets/gallery/image11.jpg'
 import pic12 from '../assets/gallery/31.jpg'
 import pic13 from '../assets/gallery/xyz1.jpg'
+import pic14 from '../assets/gallery/nikoo1.jpg'
+import pic15 from '../assets/gallery/nikoo2.jpg'
+import pic16 from '../assets/gallery/nikoo3.jpg'
+import pic17 from '../assets/gallery/nikoo4.jpg'
 // import pic14 from '../assets/gallery/24.webp'
 // import pic15 from '../assets/gallery/25.webp'
 // import pic16 from '../assets/gallery/26.webp'
@@ -28,7 +32,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const tabs = [
-  { id: 1, title: 'EXTERIOR', photos: [ pic2,pic3,pic4,pic6,pic7,pic8,pic9,pic10,pic12,pic13] },
+  { id: 1, title: 'EXTERIOR', photos: [ pic14, pic15, pic16,pic17,pic2,pic3,pic4,pic6,pic7,pic8,pic9,pic10,pic12,pic13] },
 ];
 
 function NextArrow(props) {
