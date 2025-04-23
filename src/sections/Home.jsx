@@ -4,11 +4,12 @@ import homeLocation from "../assets/home/location.svg";
 
 // Array of banner images
 import banner1 from "../assets/home/virtual_tour.png";
-import banner2 from "../assets/home/gallery_9.png";
+import banner2 from "../assets/home/image.png";
 import banner4 from "../assets/home/homebannertwo.png";
+import banner5 from "../assets/home/image6.jpeg";
 import banner3 from "../assets/gallery/1.webp";
 
-const banners = [banner1, banner2, banner4];
+const banners = [banner1, banner2, banner4, banner5];
 
 export const Home = ({ contactmodal, setContactModal }) => {
   const [currentBanner, setCurrentBanner] = useState(0);
@@ -16,7 +17,7 @@ export const Home = ({ contactmodal, setContactModal }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentBanner((prev) => (prev + 1) % banners.length);
-    }, 5000); // 5 seconds interval
+    }, 4000); // 5 seconds interval
 
     return () => clearInterval(interval);
   }, []);
