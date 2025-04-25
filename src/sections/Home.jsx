@@ -41,7 +41,7 @@ export const Home = ({ contactmodal, setContactModal }) => {
             Nikoo Homes
           </h1>
           <p className="font-body text-sm md:text-2xl font-normal">
-            Luxury Township near Bengaluru AirPort
+            Luxury Township near Bengaluru Airport
           </p>
 
           <Button
