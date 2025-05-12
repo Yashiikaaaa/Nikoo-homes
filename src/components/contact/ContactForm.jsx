@@ -114,7 +114,7 @@ const ContactForm = ({ contactmodal, setContactModal, setSiteVisitModal }) => {
       campaign: true,
       projectId: "m7VRTjgcxzOtg2V87xVc",
       projectName: "nikoo homes v - phase - 2",
-      currentAgent: "yasswanth@truestate.in",
+      currentAgent: "rahul@truestate.in",
       utmDetails: {
         source: utmParams.utmSource || null,
         medium: utmParams.utmMedium || null,
