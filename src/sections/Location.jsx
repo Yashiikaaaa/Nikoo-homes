@@ -107,7 +107,7 @@ export const Location = () => {
             <Button 
               text="Open in Google Maps"
               className="whitespace-nowrap"
-              onClick={() => window.open("https://maps.app.goo.gl/ofWGapnjHTXKz7i7A", "_blank")}
+              onClick={() => window.open("https://maps.app.goo.gl/RxLZvSzq5jK386j79", "_blank")}
             />
           </div>
         </div>
@@ -115,7 +115,7 @@ export const Location = () => {
         {/* Google Maps Iframe */}
         <div className="w-full flex justify-center">
           <div className="w-full max-w-4xl aspect-w-16 aspect-h-9 min-h-[60vh]">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.0574476071197!2d77.63578623488772!3d13.080960600000019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19ffb09b477f%3A0x2d0608325dbb6f59!2sNikoo%20Homes%202%20-%20Entrance%20Gate!5e1!3m2!1sen!2sin!4v1745393786012!5m2!1sen!2sin"       className="w-full h-full"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.2818186474688!2d77.63761847508039!3d13.198805387137865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1f006e02063d%3A0x82d633c3619fa1be!2sNikoo%20Homes%20Sadahalli!5e1!3m2!1sen!2sin!4v1747225875248!5m2!1sen!2sin"       className="w-full h-full"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
