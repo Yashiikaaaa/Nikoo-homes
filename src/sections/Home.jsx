@@ -38,10 +38,10 @@ export const Home = ({ contactmodal, setContactModal }) => {
       <div className="relative flex flex-col justify-center h-full w-full items-center gap-8 bg-black bg-opacity-40 p-5 md:px-10 lg:px-[7.5rem]">
         <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-left gap-6 text-white">
           <h1 className="font-subheading text-3xl md:text-6xl font-semibold uppercase">
-            Nikoo Homes Bhartiya City
+            Nikoo Homes Garden Estate
           </h1>
           <p className="font-body text-sm md:text-2xl font-normal">
-            Luxury Township near Bengaluru Airport
+            New Launch by Bhartiya City near Bengaluru Airport
           </p>
 
           <Button
