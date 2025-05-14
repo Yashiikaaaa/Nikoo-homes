@@ -25,7 +25,7 @@ export const Overview = ({ contactmodal, setContactModal }) => {
             </p>
 
             <ul className="mt-4 text-left list-disc list-inside space-y-1">
-              <li> Spread over <strong> 29 acres of Land Parcel</strong> </li>
+              <li> Spread across <strong>a 29-acre land parcel.</strong> </li>
               <li><strong>  Spacious Studio, 1, 2, 2.5, 3, 3.5 & 4 BHK Apartments </strong> (480 - 2,600 sq. ft.)</li>
               <li><strong> 60,000 sq. ft.</strong> clubhouse with premium amenities</li>
               <li><strong> 2B+G+22 structure with panoramic views</strong></li>
