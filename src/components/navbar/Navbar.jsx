@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Phone, Xmark, MenuScale } from "iconoir-react"; // Importing icons for phone, close, and menu
-import logo from "../../assets/navbar/images.png"; // Importing Prestige Logo
+import logo from "../../assets/navbar/nikoologo.jpg"; // Importing Prestige Logo
 import { Link } from "react-router-dom"; // Importing Link for routing
 import arrow from "../../assets/navbar/whitearrow.png";
 
@@ -69,11 +69,11 @@ export const Navbar = ({ sitevisitmodal, setSiteVisitModal, setContactModal }) =
           {/* Logo Section */}
           <a
             href="/"
-            className="flex items-center px-4 md:p-0 space-x-3 rtl:space-x-reverse"
+            className="flex items-center px-2 md:p-0 space-x-3 rtl:space-x-reverse"
           >
             <img
               src={logo}
-              className="h-[80px] md:[80px]"
+              className="h-[60px] md:[60px]"
               alt="Nikoo Homes"
             />
           </a>

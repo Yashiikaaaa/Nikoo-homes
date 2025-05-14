@@ -3,7 +3,7 @@ import Button from "../components/button/buttonMain";
 import homeLocation from "../assets/home/location.svg";
 
 // Array of banner images
-import banner1 from "../assets/home/virtual_tour.png";
+import banner1 from "../assets/home/nikooo.jpg";
 import banner2 from "../assets/home/image.png";
 import banner4 from "../assets/home/homebannertwo.png";
 import banner5 from "../assets/home/image6.jpeg";
@@ -29,10 +29,20 @@ export const Home = ({ contactmodal, setContactModal }) => {
     transition: "background-image 1s ease-in-out",
   };
 
+  const opacBackground = {
+    backgroundImage: `url(${homeLocation})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
+
+  // Overlay style to darken the background for better readability
+  const overlayStyle = {
+    backgroundColor: "rgba(0, 0, 0, 0.6)",
+  };
+
   return (
     <>
       {/* 🔶 Highlight Strip for New Launch */}
-     
 
       <div
         id="Home"
@@ -48,10 +58,15 @@ export const Home = ({ contactmodal, setContactModal }) => {
               Premium Township near Bengaluru Airport.
             </p>
 
-            <Button
-              text="Enquire Now!"
+            <button
+              className={`flex items-center px-10 py-4 w-fit bg-white text-black cursor-pointer 
+                  font-semibold text-xs md:text-sm uppercase whitespace-nowrap gap-10
+                  transition-all duration-300 ease-in-out 
+                  hover:bg-black hover:text-white font-body`}
               onClick={() => setContactModal(!contactmodal)}
-            />
+            >
+              Emquire Now!
+            </button>
           </div>
 
           {/* <div className="absolute bottom-4 right-4 flex gap-2 items-center bg-white px-3 py-2 rounded">
@@ -62,13 +77,14 @@ export const Home = ({ contactmodal, setContactModal }) => {
           </div> */}
 
           {/* Floating Location Section */}
-          <div className="hidden absolute sm:block top-[67%] right-0 md:mt-0 z-10">
-            <div className="flex gap-2 md:gap-3 bg-totalgrey rounded-none md:rounded-none items-center text-center md:px-10 md:py-6 px-4 py-4">
-              <img
-                src={homeLocation}
-                alt="Location"
-                className="h-3 md:h-6 text-black"
-              />
+          <div
+            className="hidden absolute sm:block top-[67%] right-0 md:mt-0 z-10"
+            style={opacBackground}
+          >
+            <div
+              className="flex gap-2 md:gap-3 bg-totalgrey rounded-none md:rounded-none items-center text-center md:px-10 md:py-6 px-4 py-4"
+              style={overlayStyle}
+            >
               <p className="max-w-96 font-body text-left text-black md:text-2xl text-xs font-medium leading-[130%]">
                 Sadahalli
               </p>

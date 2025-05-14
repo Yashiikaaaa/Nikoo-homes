@@ -3,55 +3,55 @@ import mapPointer from '../assets/location/markerGodrejGreen.png';
 import Button from '../components/button/buttonMain';
 
 const connectivityData = [
-  {
-    category: "IT & Business Hubs",
-    items: [
-      "Manyata Tech Park – 10 km",
-"Hebbal – 15 km",
-"Outer Ring Road (ORR) – 5 km",
-"Sarjapur Road – 20 km",
-"HSR Layout – 18 km",
-"Whitefield – 20 km"
-    ]
-  },
-  {
-    category: "Transport & Accessibility",
-    items: [
-      "Outer Ring Road (ORR) – 5 km",
-      "Hebbal Metro Station – 12 km",
-      "Kempegowda International Airport – 2 km",
-      "Yelahanka Railway Station – 15 km"
-    ]
-  },
-  {
-    category: "Educational Institutions",
-    items: [
-      "Inventure Academy – 5 km",
-      "Bangalore International School – 8 km",
-      "Canadian International School – 7 km",
-      "Kalsanka International School – 6 km",
-      "Mallya Aditi International School – 10 km"
+//   {
+//     category: "IT & Business Hubs",
+//     items: [
+//       "Manyata Tech Park – 10 km",
+// "Hebbal – 15 km",
+// "Outer Ring Road (ORR) – 5 km",
+// "Sarjapur Road – 20 km",
+// "HSR Layout – 18 km",
+// "Whitefield – 20 km"
+//     ]
+//   },
+//   {
+//     category: "Transport & Accessibility",
+//     items: [
+//       "Outer Ring Road (ORR) – 5 km",
+//       "Hebbal Metro Station – 12 km",
+//       "Kempegowda International Airport – 2 km",
+//       "Yelahanka Railway Station – 15 km"
+//     ]
+//   },
+//   {
+//     category: "Educational Institutions",
+//     items: [
+//       "Inventure Academy – 5 km",
+//       "Bangalore International School – 8 km",
+//       "Canadian International School – 7 km",
+//       "Kalsanka International School – 6 km",
+//       "Mallya Aditi International School – 10 km"
     
-    ]
-  },
-  {
-    category: "Healthcare Facilities",
-    items: [
-      "Columbia Asia Hospital – 10 km",
-      "Motherhood Hospital, Hennur – 7 km",
-      "Aster CMI Hospital – 15 km",
-      "Sakra Premium Clinic – 10 km"
-    ]
-  },
-  {
-    category: "Shopping & Entertainment",
-    items: [
-      "Manyata Embassy Business Park Mall – 10 km",
-      "Elements Mall, Hennur – 8 km",
-      "Phoenix Marketcity, Whitefield – 15 km",
-      "Orion Mall, Hebbal – 14 km"
-    ]
-  },
+//     ]
+//   },
+//   {
+//     category: "Healthcare Facilities",
+//     items: [
+//       "Columbia Asia Hospital – 10 km",
+//       "Motherhood Hospital, Hennur – 7 km",
+//       "Aster CMI Hospital – 15 km",
+//       "Sakra Premium Clinic – 10 km"
+//     ]
+//   },
+//   {
+//     category: "Shopping & Entertainment",
+//     items: [
+//       "Manyata Embassy Business Park Mall – 10 km",
+//       "Elements Mall, Hennur – 8 km",
+//       "Phoenix Marketcity, Whitefield – 15 km",
+//       "Orion Mall, Hebbal – 14 km"
+//     ]
+//   },
   // {
   //   category: "Recreational & Green Spaces",
   //   items: [
@@ -97,9 +97,9 @@ export const Location = () => {
             <ol className='text-left font-body text-xs md:text-base list-disc font-medium pl-1 md:pl-5 hidden sm:block space-y-3'>
               <li>Kempegowda International Airport – 5 mins</li>
               <li>Bellary Road (NH-44)- Around 900 meters</li>
-              <li>Outer Ring Road (ORR) – 5 mins</li>
+              <li>STRR - 7 mins</li>
               <li>Hebbal Flyover- 11 km</li>
-              <li>Yelahanka Metro Junction- 900 meters</li>
+              <li>Doddajala Metro Station - 900 metres</li>
             </ol>
           </div>
 
