@@ -96,10 +96,10 @@ export const Location = () => {
 
             <ol className='text-left font-body text-xs md:text-base list-disc font-medium pl-1 md:pl-5 hidden sm:block space-y-3'>
               <li>Kempegowda International Airport – 5 mins</li>
-              <li>Manyata Tech Park – 10 mins</li>
+              <li>Bellary Road (NH-44)- Around 900 meters</li>
               <li>Outer Ring Road (ORR) – 5 mins</li>
-              <li>Hebbal – 15 mins</li>
-              <li>Hennur Road – 10 mins</li>
+              <li>Hebbal Flyover- 11 km</li>
+              <li>Yelahanka Metro Junction- 900 meters</li>
             </ol>
           </div>
 

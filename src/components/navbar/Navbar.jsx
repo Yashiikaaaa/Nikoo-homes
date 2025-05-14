@@ -134,7 +134,7 @@ export const Navbar = ({ sitevisitmodal, setSiteVisitModal, setContactModal }) =
         </div>
 
          <div className="w-full bg-black text-white py-3 px-6 text-center font-semibold text-sm md:text-lg tracking-wide z-50">
-        🚨 New Launch Alert! — <span className="font-bold">by Bhartiya City</span> near Bengaluru Airport.
+          <span className="font-bold">🚨 New Launch by Bhartiya City —   </span> Posession: 2029.
       </div>
       </div>
   );

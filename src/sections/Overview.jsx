@@ -17,7 +17,7 @@ export const Overview = ({ contactmodal, setContactModal }) => {
           </h1>
           <div className="max-w-2xl md:text-base text-sm text-black font-body font-light">
             <p className="font-bold text-lg md:text-xl">
-            Nikoo Homes V Phase II - Luxury Apartments in Sadahalli
+            Nikoo Homes Garden Estate - Luxury Apartments in Sadahalli
 
             </p>
             <p className="mt-2">
@@ -25,12 +25,13 @@ export const Overview = ({ contactmodal, setContactModal }) => {
             </p>
 
             <ul className="mt-4 text-left list-disc list-inside space-y-1">
+              <li> Spread over <strong> 29 acres of Land Parcel</strong> </li>
               <li><strong>  Spacious Studio, 1, 2, 2.5, 3, 3.5 & 4 BHK Apartments </strong> (480 - 2,600 sq. ft.)</li>
               <li><strong> 60,000 sq. ft.</strong> clubhouse with premium amenities</li>
               <li><strong> 2B+G+22 structure with panoramic views</strong></li>
               <li><strong> Garden living concept with lush green spaces</strong></li>
-              <li><strong> Prime Connectivity:</strong> Near Outer Ring Road, Manyata Tech Park & Kempegowda Airport</li>
-              <li> Possession from June 2029 onwards  </li>
+              <li><strong> Prime Connectivity:</strong> Bellary Road (NH-44), Manyata Tech Park & Kempegowda International Airport</li>
+              <li> Possession from <strong>June 2029 onwards </strong> </li>
             </ul>
           </div>
 

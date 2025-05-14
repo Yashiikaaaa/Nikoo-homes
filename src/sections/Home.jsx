@@ -45,7 +45,7 @@ export const Home = ({ contactmodal, setContactModal }) => {
               Nikoo Homes Garden Estate
             </h1>
             <p className="font-body text-sm md:text-2xl font-normal">
-              New Launch by Bhartiya City near Bengaluru Airport
+              Premium Township near Bengaluru Airport.
             </p>
 
             <Button
