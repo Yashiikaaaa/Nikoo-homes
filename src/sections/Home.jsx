@@ -65,7 +65,7 @@ export const Home = ({ contactmodal, setContactModal }) => {
                   hover:bg-black hover:text-white font-body`}
               onClick={() => setContactModal(!contactmodal)}
             >
-              Emquire Now!
+              Enquire Now!
             </button>
           </div>
 
