@@ -85,7 +85,7 @@ export const Home = ({ contactmodal, setContactModal }) => {
               className="flex gap-2 md:gap-3 bg-totalgrey rounded-none md:rounded-none items-center text-center md:px-10 md:py-6 px-4 py-4"
               style={overlayStyle}
             >
-              <p className="max-w-96 font-body text-left text-black md:text-2xl text-xs font-medium leading-[130%]">
+              <p className="max-w-96 font-body text-left text-white md:text-2xl text-xs font-medium leading-[130%]">
                 Sadahalli
               </p>
             </div>

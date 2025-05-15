@@ -21,7 +21,7 @@ export const Overview = ({ contactmodal, setContactModal }) => {
 
             </p>
             <p className="mt-2">
-            Located near Kemepegowda International Airport.
+            Located near Kempegowda International Airport.
             </p>
 
             <ul className="mt-4 text-left list-disc list-inside space-y-1">
