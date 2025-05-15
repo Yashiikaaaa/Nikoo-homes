@@ -70,7 +70,7 @@ export const Home = ({ contactmodal, setContactModal }) => {
           </div>
 
           {/* <div className="absolute bottom-4 right-4 flex gap-2 items-center bg-white px-3 py-2 rounded">
-            <img src={homeLocation} alt="Location" className="h-4 md:h-6" />
+            
             <p className="font-body text-xs md:text-base font-medium">
               Sadahalli
             </p>
@@ -83,9 +83,10 @@ export const Home = ({ contactmodal, setContactModal }) => {
           >
             <div
               className="flex gap-2 md:gap-3 bg-totalgrey rounded-none md:rounded-none items-center text-center md:px-10 md:py-6 px-4 py-4"
-              style={overlayStyle}
+            
             >
-              <p className="max-w-96 font-body text-left text-white md:text-2xl text-xs font-medium leading-[130%]">
+              <img src={homeLocation} alt="Location" className="h-4 md:h-6" />
+              <p className="max-w-96 font-body text-left text-black md:text-2xl text-xs font-medium leading-[130%]">
                 Sadahalli
               </p>
             </div>
