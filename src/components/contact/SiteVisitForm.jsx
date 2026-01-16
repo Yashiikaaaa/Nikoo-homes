@@ -189,7 +189,7 @@ export const SiteVisitForm = ({ sitevisitmodal, setSiteVisitModal }) => {
   
       ReactGA.event({
         category: "Form Submission",
-        action: "lead_form_submit",
+        action: "Contact_form_submit",
         label: "Lead Form",
         value: 1,
       });
