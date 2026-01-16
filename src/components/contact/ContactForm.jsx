@@ -112,9 +112,9 @@ const ContactForm = ({ contactmodal, setContactModal, setSiteVisitModal }) => {
       name: name.trim().toLowerCase(),
       phoneNumber: number.trim(),
       campaign: true,
-      projectId: "0tCpmZtmZQPNGZ5FCwxr",
-      projectName: "nikoo homes sadahalli",
-      currentAgent: "rahul@truestate.in",
+      projectId: "",
+      projectName: "nikoo homes 8",
+      currentAgent: "unknown",
       utmDetails: {
         source: utmParams.utmSource || null,
         medium: utmParams.utmMedium || null,
@@ -123,7 +123,8 @@ const ContactForm = ({ contactmodal, setContactModal, setSiteVisitModal }) => {
     };
 
     try {
-      const response = await fetch("https://googleleadsserver.onrender.com/handleMultipleCampaignData", {
+      const response = await fetch( "https://google-campaign-leads-service-dot-iqol-crm.uc.r.appspot.com/handleMultipleCampaignData",
+ {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

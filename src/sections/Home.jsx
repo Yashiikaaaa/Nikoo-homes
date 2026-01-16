@@ -52,10 +52,10 @@ export const Home = ({ contactmodal, setContactModal }) => {
         <div className="relative flex flex-col justify-center h-full w-full items-center gap-8 bg-black bg-opacity-40 p-5 md:px-10 lg:px-[7.5rem]">
           <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-left gap-6 text-white">
             <h1 className="font-subheading text-3xl md:text-6xl font-semibold uppercase">
-              Nikoo Homes Garden Estate
+              Nikoo Homes 8
             </h1>
             <p className="font-body text-sm md:text-2xl font-normal">
-              Premium Township near Bengaluru Airport.
+              Premium Township on Thanisandra Main Road
             </p>
 
             <button
@@ -87,7 +87,7 @@ export const Home = ({ contactmodal, setContactModal }) => {
             >
               <img src={homeLocation} alt="Location" className="h-4 md:h-6" />
               <p className="max-w-96 font-body text-left text-black md:text-2xl text-xs font-medium leading-[130%]">
-                Sadahalli
+                Bellahalli Cross
               </p>
             </div>
           </div>

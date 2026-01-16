@@ -90,16 +90,16 @@ export const Location = () => {
               <h1 className="text-3xl md:text-5xl font-subheading font-normal text-black uppercase">Location</h1>
               <div className="flex items-center justify-center md:justify-start">
                 <img src={mapPointer} alt="Map Pointer" className="w-3 h-3 md:w-5 md:h-5 mr-2" />
-                <p className="text-xs md:text-xl font-body font-medium">Sadahalli, near Bengaluru Airport</p>
+                <p className="text-xs md:text-xl font-body font-medium">Thanisandra Main Road, near Bellahalli Cross</p>
               </div>
             </div>
 
             <ol className='text-left font-body text-xs md:text-base list-disc font-medium pl-1 md:pl-5 hidden sm:block space-y-3'>
-              <li>Kempegowda International Airport – 5 mins</li>
-              <li>Bellary Road (NH-44)- Around 900 meters</li>
-              <li>STRR - 7 mins</li>
-              <li>Hebbal Flyover- 11 km</li>
-              <li>Doddajala Metro Station - 900 metres</li>
+              <li>Bhartiya City Township – 5 mins</li>
+              <li>National Highway – 10 mins</li>
+              <li>Upcoming Metro Station – 10 mins</li>
+              <li>Manyata Tech Park – 20 mins</li>
+              <li>Kempegowda International Airport – 30 mins</li>
             </ol>
           </div>
 
@@ -107,7 +107,7 @@ export const Location = () => {
             <Button 
               text="Open in Google Maps"
               className="whitespace-nowrap"
-              onClick={() => window.open("https://maps.app.goo.gl/RxLZvSzq5jK386j79", "_blank")}
+              onClick={() => window.open("https://maps.app.goo.gl/JqDCySPhPytxfZaH9", "_blank")}
             />
           </div>
         </div>
@@ -115,7 +115,8 @@ export const Location = () => {
         {/* Google Maps Iframe */}
         <div className="w-full flex justify-center">
           <div className="w-full max-w-4xl aspect-w-16 aspect-h-9 min-h-[60vh]">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.2818186474688!2d77.63761847508039!3d13.198805387137865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1f006e02063d%3A0x82d633c3619fa1be!2sNikoo%20Homes%20Sadahalli!5e1!3m2!1sen!2sin!4v1747225875248!5m2!1sen!2sin"       className="w-full h-full"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0048150692887!2d77.6359066!3d13.098881199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae190020332729%3A0xf5146dfe2091a9ad!2sNikoo%20Homes%208%20Bellahalli!5e0!3m2!1sen!2sin!4v1768546960100!5m2!1sen!2sin"      className="w-full h-full"
+              
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"

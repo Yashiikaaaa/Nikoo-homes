@@ -5,13 +5,13 @@ export const Features = () => {
   const featuresData = [
     { id: 1, title: 'Project Size', value: '29 Acres' },
     { id: 2, title: 'Possession', value: '2029' },
-    { id: 3, title: 'Starting Price', value: ' ₹ 46 Lacs*' },
-    { id: 4, title: 'No. of Units', value: '2000' },
+    { id: 3, title: 'Starting Price', value: ' ₹ 95 Lacs*' },
+    { id: 4, title: 'Configurations', value: '1, 2, 3, 4 BHK' },
   ];
 
   return (
     <section className="w-full bg-PrestigeGrey">
-      <div className="bg-PrestigeBrown text-PrestigeGrey w-full transform -translate-y-1/2">
+      <div className="bg-[#9d0c0f] text-PrestigeGrey w-full transform -translate-y-1/2">
         <div className="flex flex-wrap justify-between items-center text-center mx-auto max-w-8xl py-1">
 
           {featuresData.map((feature, index) => (

@@ -125,7 +125,7 @@ export const Navbar = ({ sitevisitmodal, setSiteVisitModal, setContactModal }) =
           <div className="hidden lg:flex items-center">
             <a
               href="tel:+916364254487"
-              className="flex items-center bg-PrestigeBrown text-white px-4 py-2 rounded-lg shadow-lg hover:bg-opacity-90 transition"
+              className="flex items-center bg-PrestigeGrey text-black px-4 py-2 rounded-lg shadow-lg hover:bg-opacity-90 transition"
             >
               <Phone className="w-5 h-5 mr-2" /> 63642 54487
             </a>
@@ -133,8 +133,8 @@ export const Navbar = ({ sitevisitmodal, setSiteVisitModal, setContactModal }) =
           
         </div>
 
-         <div className="w-full bg-[#c67076]  text-black py-3 px-6 text-center font-semibold text-sm md:text-lg tracking-wide z-50">
-          <span className="font-bold">🚨 New Launch by Bhartiya City —   </span> Possession: 2029.
+         <div className="w-full bg-[#000000]  text-white py-3 px-6 text-center font-semibold text-sm md:text-lg tracking-wide z-50">
+          <span className="font-bold">🚨 New Launch by Bhartiya City -   </span> Possession: 2029.
       </div>
       </div>
   );

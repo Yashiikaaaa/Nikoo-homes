@@ -21,17 +21,17 @@ export const Overview = ({ contactmodal, setContactModal }) => {
 
             </p>
             <p className="mt-2">
-            Located near Kempegowda International Airport.
+            Located on Thanisandra Main Road, North Bengaluru
             </p>
 
             <ul className="mt-4 text-left list-disc list-inside space-y-1">
-              <li> Spread across <strong>a 29-acre land parcel.</strong> </li>
-              <li><strong>  Spacious Studio, 1, 2, 2.5, 3, 3.5 & 4 BHK Apartments </strong> (480 - 2,600 sq. ft.)</li>
-              <li><strong> 60,000 sq. ft.</strong> clubhouse with premium amenities</li>
-              <li><strong> 2B+G+22 structure with panoramic views</strong></li>
-              <li><strong> Garden living concept with lush green spaces</strong></li>
-              <li><strong> Prime Connectivity:</strong> Bellary Road (NH-44), Manyata Tech Park & Kempegowda International Airport</li>
-              <li> Possession from <strong>June 2029 onwards </strong> </li>
+              <li> Premium residential development by Bhartiya City Developers </li>
+              <li> Spread across 12 acres with 75% open & landscaped spaces(480 - 2,600 sq. ft.)</li>
+              <li>Integrated community with apartments and row houses</li>
+              <li>Phase 01 with 3 high-rise towers and modern planning</li>
+              <li>Grand ~40,000 sq.ft clubhouse with lifestyle amenities</li>
+              <li>Prime location on Thanisandra Main Road, near Bellahalli Cross</li>
+              <li> Possession from <strong>2030 </strong> </li>
             </ul>
           </div>
 

@@ -10,11 +10,11 @@ import pic3 from '../assets/floor-plans/floorPlanGodrejPark.png';
 import pic4 from '../assets/floor-plans/floorPlanGodrejPark.png';
 
 const images = [
-  { src: pic1, caption: "2 BHK" },
-  { src: pic2, caption: "2.5 BHK" },
+  { src: pic1, caption: "1 BHK" },
+  { src: pic2, caption: "1 BHK" },
   { src: pic3, caption: "3 BHK" },
-  { src: pic4, caption: "3.5 BHK" },
-  { src: pic4, caption: "4.5 BHK" },
+  { src: pic4, caption: "4 BHK" },
+  // { src: pic4, caption: "4.5 BHK" },
 ];
 
 function NextArrow(props) {
