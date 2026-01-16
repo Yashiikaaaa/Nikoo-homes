@@ -17,11 +17,11 @@ export const Overview = ({ contactmodal, setContactModal }) => {
           </h1>
           <div className="max-w-2xl md:text-base text-sm text-black font-body font-light">
             <p className="font-bold text-lg md:text-xl">
-            Nikoo Homes Garden Estate - Luxury Apartments in Sadahalli
+            Nikoo Homes 8 - Luxury Apartments in North Bengaluru
 
             </p>
             <p className="mt-2">
-            Located on Thanisandra Main Road, North Bengaluru
+            Located on Thanisandra Main Road
             </p>
 
             <ul className="mt-4 text-left list-disc list-inside space-y-1">

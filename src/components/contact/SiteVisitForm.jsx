@@ -152,7 +152,7 @@ export const SiteVisitForm = ({ sitevisitmodal, setSiteVisitModal }) => {
     const siteVisitTimestamp = Math.floor(startDate.getTime() / 1000);
   
     const propertyId = "0tCpmZtmZQPNGZ5FCwxr"; // Example property ID
-    const projectName = "nikoo homes sadahalli"; // Example project name
+    const projectName = "nikoo homes 8"; // Example project name
   const currentAgent = "rahul@truestate.in";
     const payload = {
       name: normalizedName,
